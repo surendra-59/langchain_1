@@ -1,0 +1,19 @@
+
+Step 1:
+UV package manager: 
+    installation: Window: powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+Creating Virtual env:
+    1. initialize the working dir: uv init
+    2. create venv: uv venv
+    3. Activate with: .venv\Scripts\activate
+
+installation: uv add -r requirements.txt
+
+
+Step 2: Create API keys
+    go to google,groq,openai api key. create api.
+
+Step 3:
+    install: uv add ipykernel
+    
